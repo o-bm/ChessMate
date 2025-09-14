@@ -1,0 +1,53 @@
+# Environment variables
+.env
+config.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Next.js
+.next/
+out/
+.vercel
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# API Keys and secrets
+*.key
+*.pem
+secrets/
+
+# Testing
+coverage/
+.coverage
+.pytest_cache/
+
+# Build
+dist/
+build/
+*.egg-info/
